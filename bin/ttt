@@ -13,4 +13,6 @@ index = user_input.to_i - 1
 position_taken?(board, index)
 move(board, index)
 display_board(board)
+ if board[index] == "X" || "O"
+   break
 end
