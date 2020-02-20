@@ -15,4 +15,5 @@ move(board, index)
 display_board(board)
  if board[index] == "X" || "O"
    break
+ end
 end
